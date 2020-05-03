@@ -1,10 +1,12 @@
 const config = {
   development: {
-    API_URL: 'http://localhost:8000'
+    API_URL: 'http://localhost:4000',
+    CMS_URL: "http://localhost:3000"
   },
   production: {
-    API_URL: 'https://randomuser.me'
+    API_URL: 'http://localhost:4000',
+    CMS_URL: "http://localhost:3000"
   }
-}.production;
+}.development;
 
 export default config;
