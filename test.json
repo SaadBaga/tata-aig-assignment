@@ -1,0 +1,34 @@
+{
+     "data": [
+        {
+            "date": "03-05-2019",
+            "name": "Burger",
+            "no_of_calories": "120"
+        },
+        {
+            "date": "03-05-2019",
+            "name": "Pizza",
+            "no_of_calories": "220"
+        },
+        {
+            "date": "03-05-2019",
+            "name": "Shawarma",
+            "no_of_calories": "50"
+        },
+        {
+            "date": "04-05-2019",
+            "name": "Fries",
+            "no_of_calories": "90"
+        },
+        {
+            "date": "04-05-2019",
+            "name": "Tikka",
+            "no_of_calories": "80"
+        },
+        {
+            "date": "04-05-2019",
+            "name": "Kebab",
+            "no_of_calories": "110"
+        }
+    ]
+}

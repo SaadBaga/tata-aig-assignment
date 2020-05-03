@@ -1,6 +1,6 @@
 import Sidebar from './sidebar';
 import Header from './header';
-import { Row, Col, Layout } from 'antd';
+import { Row, Col } from 'antd';
 // const { Header, Footer, Sider, Content } = Layout;
 
 class LayoutCms extends React.Component {

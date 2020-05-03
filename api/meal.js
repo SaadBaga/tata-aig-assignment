@@ -7,7 +7,7 @@ export const editMeal = async (apiToken = null, mealId) => {
         "Access-Control-Allow-Origin": "*"
     }
     apiToken ? header.Authorization = apiToken : null;
-    let data = await fetch(`${config.API_URL}/cms/meallistall`, {
+    let data = await fetch(`${config.API_URL}/cms/cmsactivitylistall`, {
         method: "POST",
         headers: header,
         body: JSON.stringify({
@@ -26,7 +26,7 @@ export const mealList = async (apiToken = null) => {
         "Access-Control-Allow-Origin": "*"
     }
     apiToken ? header.Authorization = apiToken : null;
-    let data = await fetch(`${config.API_URL}/cms/meallistall`, {
+    let data = await fetch(`${config.API_URL}/cms/cmsactivitylistall`, {
         method: "POST",
         headers: header
     });
