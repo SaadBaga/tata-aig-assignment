@@ -23,7 +23,7 @@
     "next": "9.2.2",
     "next-cookies": "^2.0.3",
     "next-redux-wrapper": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "null-loader": "^3.0.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
